@@ -4,7 +4,7 @@ project:
 
 website:
   title: ""
-  page-footer: "Copyright 2021, Norah Jones" 
+  page-footer: "© 2023, Luigi Cesarini" 
   navbar:
     left:
       - href: index.qmd
