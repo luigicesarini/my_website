@@ -1,0 +1,15 @@
+---
+title: "Publications"
+---
+
+<a style="font-style:italic;">My publications in peer-reviewed journals</a>
+
+**2022**
+
+Cesarini, L., Figueiredo, R., Romão X., and Martina, M.: "Exposure modelling of transmission towers using street-level imagery and a deep learning object detection model." Conference Proceedings of ICONHIC2022 3rd International Conference on Natural Hazards & Infrastructure, Athens, Greece, 4-7 July 2022.
+
+**2021**
+
+Cesarini, L., Figueiredo, R., Monteleone, B., and Martina, M. L. V.: The potential of machine learning for weather index insurance, Nat. Hazards Earth Syst. Sci., 21, 2379–2405, https://doi.org/10.5194/nhess-21-2379-2021, 2021.
+
+

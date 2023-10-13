@@ -1,0 +1,43 @@
+---
+title: "First tutorial"
+---
+
+The first tutorial of the hydrological risk class.
+
+# Import the modules after having installed them with pip install
+```{python}
+#| echo: true
+import rasterio
+import numpy as np #scientific computing,multidimensional array
+import pandas as pd
+import xarray as xr
+import geopandas as gpd
+#<!-- import matplotlib.pyplot as plt -->
+from rasterstats import zonal_stats
+from shapely.geometry import mapping
+from rasterio.features import geometry_mask
+
+```
+
+# CONTROL STATEMENT
+If statement: executes the cunk of code, if the condition holds true
+while loop: executes as long as the condition remains true
+for loop: iterates over the items of any sequence (a list or a string), in the order that they appear in the sequence.
+
+```{python}
+#| echo: true
+#| code-line-numbers: "|5|7|9"
+#<!-- #| code-fold: true -->
+
+heights = [1.80,1.75,1.89,1.90,1.55,1.77]
+
+height_threshold = 1.75
+
+for h in heights:
+
+  if h >= height_threshold:
+
+    print("Higher than threshold", h)
+
+
+```

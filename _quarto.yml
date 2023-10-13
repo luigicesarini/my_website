@@ -1,0 +1,33 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: ""
+  page-footer: "Copyright 2021, Norah Jones" 
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - text: Tutorials
+        menu:
+          - href: tutorials.qmd
+      - publications.qmd
+      - about.qmd
+
+    tools:
+    - icon: twitter
+      href: https://twitter.com/luigi_cesarini
+    - icon: github
+      menu:
+        - text: Source Code
+          url:  https://github.com/luigicesarini/Hydro_Risk_2023
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+

@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "tutorials.html",
+    "href": "tutorials.html",
+    "title": "First tutorial",
+    "section": "",
+    "text": "The first tutorial of the hydrological risk class.\n\nImport the modules after having installed them with pip install\n\nimport rasterio\nimport numpy as np #scientific computing,multidimensional array\nimport pandas as pd\nimport xarray as xr\nimport geopandas as gpd\n#&lt;!-- import matplotlib.pyplot as plt --&gt;\nfrom rasterstats import zonal_stats\nfrom shapely.geometry import mapping\nfrom rasterio.features import geometry_mask\n\n\n\nCONTROL STATEMENT\nIf statement: executes the cunk of code, if the condition holds true while loop: executes as long as the condition remains true for loop: iterates over the items of any sequence (a list or a string), in the order that they appear in the sequence.\n\n#&lt;!-- #| code-fold: true --&gt;\n\nheights = [1.80,1.75,1.89,1.90,1.55,1.77]\n\nheight_threshold = 1.75\n\nfor h in heights:\n\n  if h &gt;= height_threshold:\n\n    print(\"Higher than threshold\", h)\n\nHigher than threshold 1.8\nHigher than threshold 1.75\nHigher than threshold 1.89\nHigher than threshold 1.9\nHigher than threshold 1.77"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "My publications in peer-reviewed journals\n2022\nCesarini, L., Figueiredo, R., Romão X., and Martina, M.: “Exposure modelling of transmission towers using street-level imagery and a deep learning object detection model.” Conference Proceedings of ICONHIC2022 3rd International Conference on Natural Hazards & Infrastructure, Athens, Greece, 4-7 July 2022.\n2021\nCesarini, L., Figueiredo, R., Monteleone, B., and Martina, M. L. V.: The potential of machine learning for weather index insurance, Nat. Hazards Earth Syst. Sci., 21, 2379–2405, https://doi.org/10.5194/nhess-21-2379-2021, 2021."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "my_website",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  }
+]
